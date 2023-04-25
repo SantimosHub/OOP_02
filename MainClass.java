@@ -9,7 +9,6 @@ public class MainClass {
                 new Cat("Ферзик", 8, false),
                 new Cat("Пёсик", 20, false),
                 new Cat("Бальтазар", 2, false)};
-//        Cat cat = new Cat("Barsik", 5, false);
 
         Plate plate = new Plate(50);
         plate.info();
@@ -23,8 +22,6 @@ public class MainClass {
         plate.addFood(50);
 
         plate.info();
-
-
 
 
     }

@@ -6,14 +6,12 @@ public class Plate {
     }
 
     public void info() {
-        System.out.printf("В тарелке %d еды", food);
-        System.out.println();
+        System.out.printf("В тарелке %d еды\n", food);
     }
 
-    public void addFood(int someFood){
+    public void addFood(int someFood) {
         food += someFood;
-        System.out.printf("Добавили в тарелку %d еды", someFood);
-        System.out.println();
+        System.out.printf("Добавили в тарелку %d еды\n", someFood);
     }
 
     public static int getFood() {
@@ -23,7 +21,5 @@ public class Plate {
     public static void setFood(int food) {
         Plate.food = food;
     }
-
-
 
 }

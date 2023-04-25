@@ -12,15 +12,11 @@ public class Cat {
     public void eat(int food, int appetite) {
         if (appetite < food) {
             eatest = true;
-            System.out.printf("%s наелся.", name);
+            System.out.printf("%s наелся.\n", name);
             Plate.setFood(Plate.getFood() - appetite);
-
         } else {
-            System.out.printf("Не достаточно еды, %s остался голодным.", name);
-
-
+            System.out.printf("Не достаточно еды, %s остался голодным.\n", name);
         }
-        System.out.println();
 
     }
 
@@ -29,7 +25,6 @@ public class Cat {
     }
 
     public void info() {
-        System.out.printf("Имя: %s  Аппетит: %d Сытость: %b", name, appetite, eatest);
-        System.out.println();
+        System.out.printf("Имя: %s  Аппетит: %d Сытость: %b\n", name, appetite, eatest);
     }
 }
